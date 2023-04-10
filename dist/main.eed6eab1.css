@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: black;
+}
+
+main {
+  position: relative;
+  height: 1920px;
+  width: 1080px;
+  overflow: hidden;
+  font-size: 3em;
+  color: white;
+}
+
+section {
+  margin: 0;
+}
+
+section:first-child {
+  height: 570px;
+}
+
+h1 {
+  font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+  line-height: 0.94;
+}
+
+h2 {
+  font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+  margin: 23px 0 18px;
+}
+
+h3 {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  width: 10em;
+  line-height: 1.3em;
+}
+
+h3.tri {
+  opacity: 0.6;
+}
+
+#station-title {
+  font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+  color: #33b1ff;
+  line-height: 1.3;
+}
+
+#today {
+  font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+  font-size: 29pt;
+}
+
+.temp,
+.subh {
+  opacity: 0.6;
+}
+
+.subh {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+}
+.subh .temp {
+  opacity: 1;
+  margin-left: 0;
+}
+
+h2.temp {
+  opacity: 1;
+}
+
+#moments-tag {
+  position: absolute;
+  bottom: 29px;
+  left: 0;
+  width: 698px;
+}
+
+#notch-r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#notch-r h4 {
+  font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+  font-size: 23pt;
+  line-height: 1.2;
+}
+#notch-r h4:last-child {
+  text-align: right;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#moon-phase {
+  text-transform: capitalize;
+}
+
+#debug {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  font-size: 2em;
+  z-index: 20;
+}
+
+#fallback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: block;
+}
+
+@font-face {
+  font-family: "Gotham Thin Italic";
+  src: url("/Gotham-ThinItalic.cba46305.ttf");
+}
+@font-face {
+  font-family: "Gotham Medium Italic";
+  src: url("/Gotham-MediumItalic.945066e5.ttf");
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("/Gotham-Bold.d22a8d91.otf");
+}
+@font-face {
+  font-family: "Gotham Book";
+  src: url("/Gotham-Book.d1321e02.otf");
+}
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("/GothamMedium.be355391.ttf");
+}
+@font-face {
+  font-family: "Gotham Black";
+  src: url("/Gotham-Black.beab5b1f.ttf");
+}
+main {
+  background-image: url("/background_liveboard.9e69d31a.jpg");
+}
+
+#debug p {
+  max-width: 50%;
+  margin-bottom: 0.5em;
+  word-break: break-word;
+}
+
+h1 {
+  margin: 0.45em 0 0.6em;
+  font-size: 80pt;
+}
+
+h2 {
+  font-size: 60pt;
+  margin: 37px 0 18px;
+}
+
+h3 {
+  margin-top: 30px;
+  width: 10em;
+  font-size: 25pt;
+}
+
+section,
+#now,
+#forecast-1,
+#forecast-2 {
+  padding: 40px 42px;
+  box-sizing: border-box;
+}
+
+#now,
+#forecast-1 {
+  height: 390px;
+}
+
+#forecast-2 {
+  height: 570px;
+}
+
+#station-title {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+#today {
+  font-size: 29pt;
+  margin-bottom: 45px;
+}
+
+#notch-r.day {
+  background-image: url("/wind_bg_day.e6db971c.png");
+}
+
+#notch-r.dusk {
+  background-image: url("/wind_bg_dusk.3883f533.png");
+}
+
+#notch-r.night {
+  background-image: url("/wind_bg_night.958d5807.png");
+}
+
+#notch-r {
+  padding: 30px 42px;
+  position: relative;
+  background-image: url("/wind_bg_dusk.3883f533.png");
+}
+#notch-r h4 {
+  font-size: 30pt;
+}
+#notch-r h4 span {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+}
+#notch-r .subh {
+  font-size: 30pt;
+}
+
+#compass-icon {
+  position: absolute;
+  top: 225px;
+  left: 194px;
+}
+
+.temp {
+  opacity: 0.6;
+  margin-left: 0.4em;
+}
+
+.subh {
+  font-size: 23pt;
+}
+
+#now.day,
+#forecast-1.day {
+  background-image: url("/small_banner_day.4ffcf367.png");
+}
+
+#forecast-2.day {
+  background-image: url("/medium_banner_day.0e89aaa8.png");
+}
+
+#now.dusk,
+#forecast-1.dusk {
+  background-image: url("/small_banner_dusk.00c28993.png");
+}
+
+#forecast-2.dusk {
+  background-image: url("/medium_banner_dusk.53ae2319.png");
+}
+
+#now.night,
+#forecast-1.night {
+  background-image: url("/small_banner_night.bb0b4717.png");
+}
+
+#forecast-2.night {
+  background-image: url("/medium_banner_night.d7e3ed64.png");
+}
+
+#now,
+#forecast-1,
+#forecast-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-box {
+  width: 343px;
+  height: 310px;
+}
+.img-box img {
+  max-width: 160px;
+}
+
+#moments-tag {
+  position: fixed;
+  top: 1720px;
+  z-index: 99;
+}
+
+/*# sourceMappingURL=/main.eed6eab1.css.map */

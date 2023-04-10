@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: url('../assets/preview-bg.jpg') #2e1d35;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.link {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica;
+  li {
+    display: block;
+    padding: 0 0 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0px 0px 5px rgba(#fff, 1);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+main {
+  margin: auto;
+  transform-origin: top left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  // margin:0 1.5%;
+}
+section {
+  text-align: center;
+  display: flex;
+}
+$border-size: 40px;
+.board {
+  // float: left;
+  height: 1920px + ($border-size * 2);
+  width: 1080px + ($border-size * 2);
+  transform: scale(0.9);
+  border: $border-size solid black;
+  border-radius: 30px;
+  // margin:2%;
+  // padding:0 1.5%;
+  &.vup {
+    height: 1080px + ($border-size * 2);
+    width: 1920px + ($border-size * 2);
+  }
+
+  iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}

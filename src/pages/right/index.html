@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Moments - Weather - Right</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" id="stylesheet" href="./styles/main.scss" />
+    <script type="text/javascript" src="./js/app.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="top">
+        <div class="top-row">
+          <div class="info-group">
+            <img src="../assets/icon-humidity.svg" alt="icon-humidity" />
+            <div>
+              <h4>Humidity</h4>
+              <p id="humidity">N/A%</p>
+            </div>
+          </div>
+          <div class="info-group">
+            <img src="../assets/icon-uv.svg" alt="icon-uv" />
+            <div>
+              <h4>UV Index</h4>
+              <p id="uv-index">N/A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="top-row">
+          <div class="info-group">
+            <img src="../assets/icon-sun.svg" alt="icon-sun" />
+            <div>
+              <h4 id="sun-title">Sunset</h4>
+              <p id="sun-time">--:--</p>
+            </div>
+          </div>
+
+          <div class="info-group">
+            <img src="../assets/icon-air.svg" alt="icon-air" />
+            <div>
+              <h4>Air Quality</h4>
+              <p id="air-quality">N/A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="top-row">
+          <div class="info-group">
+            <img src="../assets/icon-wind.svg" alt="icon-wind" />
+            <div>
+              <h4>Wind</h4>
+              <p id="wind">N/A</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="forecast-2">
+        <h2 class="time">--:--</h2>
+        <div class="img-box">
+          <img src="../assets/icons/1001.svg" />
+        </div>
+        <h2 class="temp">N/A˚</h2>
+        <div class="subh">Feels like <span class="temp">N/A˚</span></div>
+        <h3 class="tri">--</h3>
+      </section>
+    </main>
+    <img src="../assets/fallback/fallback_single.png" id="fallback" />
+  </body>
+</html>

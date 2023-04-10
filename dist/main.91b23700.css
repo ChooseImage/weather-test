@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: black;
+}
+
+main {
+  position: relative;
+  height: 1920px;
+  width: 1080px;
+  overflow: hidden;
+  font-size: 3em;
+  color: white;
+}
+
+section {
+  margin: 0;
+}
+
+section:first-child {
+  height: 570px;
+}
+
+h1 {
+  font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+  line-height: 0.94;
+}
+
+h2 {
+  font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+  margin: 23px 0 18px;
+}
+
+h3 {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  width: 10em;
+  line-height: 1.3em;
+}
+
+h3.tri {
+  opacity: 0.6;
+}
+
+#station-title {
+  font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+  color: #33b1ff;
+  line-height: 1.3;
+}
+
+#today {
+  font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+  font-size: 29pt;
+}
+
+.temp,
+.subh {
+  opacity: 0.6;
+}
+
+.subh {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+}
+.subh .temp {
+  opacity: 1;
+  margin-left: 0;
+}
+
+h2.temp {
+  opacity: 1;
+}
+
+#moments-tag {
+  position: absolute;
+  bottom: 29px;
+  left: 0;
+  width: 698px;
+}
+
+#notch-r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#notch-r h4 {
+  font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+  font-size: 23pt;
+  line-height: 1.2;
+}
+#notch-r h4:last-child {
+  text-align: right;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#moon-phase {
+  text-transform: capitalize;
+}
+
+#debug {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  font-size: 2em;
+  z-index: 20;
+}
+
+#fallback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: block;
+}
+
+@font-face {
+  font-family: "Gotham Thin Italic";
+  src: url("/Gotham-ThinItalic.cba46305.ttf");
+}
+@font-face {
+  font-family: "Gotham Medium Italic";
+  src: url("/Gotham-MediumItalic.945066e5.ttf");
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("/Gotham-Bold.d22a8d91.otf");
+}
+@font-face {
+  font-family: "Gotham Book";
+  src: url("/Gotham-Book.d1321e02.otf");
+}
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("/GothamMedium.be355391.ttf");
+}
+@font-face {
+  font-family: "Gotham Black";
+  src: url("/Gotham-Black.beab5b1f.ttf");
+}
+main {
+  width: 1920px;
+  height: 1080px;
+}
+
+#now.day {
+  background-image: url("/vup_banner_day.0b72a684.png");
+}
+
+#now.dusk {
+  background-image: url("/vup_banner_dusk.ad24cb3e.png");
+}
+
+#now.night {
+  background-image: url("/vup_banner_night.9717e019.png");
+}
+
+#notch-r.day {
+  background-image: url("/vup_wind_day.4b76b2d7.png");
+}
+
+#notch-r.dusk {
+  background-image: url("/vup_wind_dusk.7a081baa.png");
+}
+
+#notch-r.night {
+  background-image: url("/vup_wind_night.6d2d7b31.png");
+}
+
+body {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  background-image: url("/vup.50dea56f.jpg");
+}
+
+#vup-header {
+  height: 319px;
+  padding: 3.3rem 4.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#station-title {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+  font-size: 85px;
+  line-height: initial;
+  margin-bottom: 15px;
+}
+
+#station-title.long-text {
+  font-size: 80px;
+}
+
+#today {
+  font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+#now {
+  opacity: 1;
+  overflow: hidden;
+  height: 760px;
+}
+
+h3 {
+  font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  width: 600px;
+  margin: 0.6em 1em 0 0;
+}
+
+#forecast {
+  position: relative;
+  display: flex;
+  padding: 3.7em 4.5rem 3em;
+  height: 560px;
+  box-sizing: border-box;
+}
+
+.img-box {
+  height: 370px;
+}
+.img-box img {
+  width: 550px;
+}
+
+h2.temp {
+  font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+  font-size: 5.5em;
+  margin: 0 0.2em 0 0;
+}
+
+.subh {
+  font-size: 1.3em;
+  font-family: "Gotham Medium", Arial, Helvetica, sans-serif;
+  margin-top: 0.2em;
+}
+.subh .temp {
+  font-size: 1.07em;
+  font-family: "Gotham Black", Arial, Helvetica, sans-serif;
+}
+
+#notch-l {
+  width: 563px;
+  height: 265px;
+  left: 1300px;
+  bottom: -20px;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  padding: 80px 92px;
+  justify-content: space-between;
+  line-height: 1.8;
+  font-size: 30pt;
+}
+#notch-l img:first-child {
+  position: absolute;
+  width: 75px;
+  margin-left: 20px;
+  margin-top: -85px;
+}
+#notch-l img:last-child {
+  position: absolute;
+  width: 110px;
+  margin-left: 3px;
+  margin-top: -60px;
+}
+#notch-l h4 {
+  position: relative;
+  font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 33px;
+  left: -5px;
+}
+#notch-l p {
+  font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 33px;
+  opacity: 0.6;
+  position: relative;
+  left: -100px;
+}
+#notch-l h4#humidity-title {
+  position: relative;
+  top: -33px;
+}
+#notch-l h4#sun-title {
+  position: relative;
+  top: 10px;
+}
+#notch-l p#humidity {
+  position: relative;
+  top: -30px;
+}
+#notch-l p#sun-time {
+  position: relative;
+  top: 10px;
+}
+
+#notch-r {
+  width: 563px;
+  height: 495px;
+  position: absolute;
+  left: 1360px;
+  top: 319px;
+  background-size: 565px;
+}
+#notch-r h4 {
+  margin-left: 40px;
+  margin-top: -48px;
+  font-size: 40px;
+  line-height: 5em;
+  font-family: "Gotham Book", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+#notch-r h4 .subh {
+  position: fixed;
+  margin-top: -130px;
+  margin-left: 0px;
+}
+#notch-r h4 .wind {
+  position: fixed;
+  margin-top: -140px;
+  margin-left: -230px;
+  font-size: 50px;
+}
+
+#moments-tag {
+  position: fixed;
+  top: 880px;
+}
+
+/*# sourceMappingURL=/main.91b23700.css.map */

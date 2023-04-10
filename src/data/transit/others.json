@@ -1,0 +1,149 @@
+[
+  {
+    "transit authority": "MARTA",
+    "description": "Buckhead Station",
+    "station": "Buckhead",
+    "latitude": 33.56875,
+    "longitude": -83.36231
+  },
+  {
+    "transit authority": "MARTA",
+    "description": "Lindbergh Station",
+    "station": "Lindbergh",
+    "latitude": 33.82129,
+    "longitude": -84.36896
+  },
+  {
+    "transit authority": "MARTA",
+    "description": "Mercedes Benz Station",
+    "station": "Mercedes Benz",
+    "latitude": 33.75659,
+    "longitude": -84.39681
+  },
+  {
+    "transit authority": "Caltrain",
+    "description": "4th & King Station",
+    "station": "4thKing",
+    "latitude": 37.77605,
+    "longitude": -122.3944
+  },
+  {
+    "transit authority": "BART",
+    "description": "12th St. Station",
+    "station": "12thSt",
+    "latitude": 37.80351,
+    "longitude": -122.27179
+  },
+  {
+    "transit authority": "BART, BART-VTA",
+    "description": "Berryessa Station",
+    "station": "Berryessa",
+    "latitude": 37.3706,
+    "longitude": -121.87482
+  },
+  {
+    "transit authority": "BART, BART-VTA",
+    "description": "Milpitas Station",
+    "station": "Milpitas",
+    "latitude": 37.42261,
+    "longitude": -121.89332
+  },
+  {
+    "transit authority": "WMATA",
+    "description": "Union Station",
+    "station": "Union Station",
+    "latitude": 38.89682,
+    "longitude": -77.00493
+  },
+  {
+    "transit authority": "WMATA",
+    "description": "Eastern Market Station",
+    "station": "Eastern Market",
+    "latitude": 38.88241,
+    "longitude": -76.99094
+  },
+  {
+    "transit authority": "WMATA",
+    "description": "Federal Center Station",
+    "station": "Federal Center",
+    "latitude": 38.88507,
+    "longitude": -77.01519
+  },
+  {
+    "transit authority": "WMATA",
+    "description": "Georgia Avenue Station",
+    "station": "Georgia Avenue",
+    "latitude": 38.93661,
+    "longitude": -77.02434
+  },
+  {
+    "transit authority": "WMATA",
+    "description": "Glenmont Station",
+    "station": "Glenmont",
+    "latitude": 39.06118,
+    "longitude": -77.05223
+  },
+  {
+    "transit authority": "WMATA",
+    "description": "Capitol South Station",
+    "station": "Capitol_South",
+    "latitude": 38.884,
+    "longitude": -77.00588
+  },
+  {
+    "transit authority": "WMATA",
+    "description": "Farragut North Station",
+    "station": "Farragut North",
+    "latitude": 38.90386,
+    "longitude": -77.03999
+  },
+  {
+    "transit authority": "WMATA",
+    "description": "Woodley Park Station",
+    "station": "Woodley Park",
+    "latitude": 38.92827,
+    "longitude": -77.05427
+  },
+  {
+    "transit authority": "Citylites",
+    "description": "Downtown Saint Paul",
+    "station": "Downtown Saint Paul",
+    "latitude": 44.94566,
+    "longitude": -93.09443
+  },
+  {
+    "transit authority": "Citylites",
+    "description": "Downtown Rochester",
+    "station": "Downtown Rochester",
+    "latitude": 44.021972,
+    "longitude": -92.46488
+  },
+  {
+    "transit authority": "Citylites",
+    "description": "Central Minneapolis",
+    "station": "Central Minneapolis",
+    "latitude": 44.97639,
+    "longitude": -93.271084
+  },
+  {
+    "transit authority": "Brightline",
+    "description": "Ft. Lauderdale Station",
+    "station": "Fort Lauderdale",
+    "latitude": 26.12416,
+    "longitude": -80.143593
+  },
+  {
+    "transit authority": "Brightline",
+    "description": "W Palm Beach Station",
+    "station": "West Palm Beach",
+    "latitude": 26.71444,
+    "longitude": -80.05495
+  },
+  {
+    "transit authority": "Brightline",
+    "description": "Miami Station",
+    "station": "Miami",
+    "latitude": 25.78009,
+    "longitude": -80.195312
+  }
+]

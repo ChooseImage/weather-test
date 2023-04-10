@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: url("/preview-bg.a5b16b99.jpg") #2e1d35;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.link {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica;
+}
+.link li {
+  display: block;
+  padding: 0 0 5px;
+}
+.link a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 0px 0px 5px white;
+}
+.link a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: auto;
+  transform-origin: top left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+section {
+  text-align: center;
+  display: flex;
+}
+
+.board {
+  height: 2000px;
+  width: 1160px;
+  transform: scale(0.9);
+  border: 40px solid black;
+  border-radius: 30px;
+}
+.board.vup {
+  height: 1160px;
+  width: 2000px;
+}
+.board iframe {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+/*# sourceMappingURL=/styles.dfe77cf1.css.map */

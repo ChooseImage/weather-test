@@ -1,0 +1,10 @@
+{
+  "templates": [
+    {
+      "displayName": "Moments Weather - Single - v0.1.0",
+      "preview": "preview.png",
+      "indexTemplate": "index.html",
+      "previewOrientation": "portrait"
+    }
+  ]
+}

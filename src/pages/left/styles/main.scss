@@ -1,0 +1,55 @@
+@use '../../../styles/base';
+@use '../../../styles/typography';
+
+main {
+  background-image: url('../../assets/background_liveboard.jpg');
+}
+
+#now.day.tri {
+  background-image: url('../../assets/day/triptych_banner_day.png');
+}
+#now.dusk.tri {
+  background-image: url('../../assets/dusk/triptych_banner_dusk.png');
+}
+#now.night.tri {
+  background-image: url('../../assets/night/triptych_banner_night.png');
+}
+
+section {
+  box-sizing: border-box;
+  padding: 75px 95px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 118pt;
+  margin: 125px -5px;
+}
+
+h2 {
+  font-size: 86pt;
+  margin: 18px -5px 25px;
+}
+h2.temp {
+  margin: -93px 0 0;
+  font-size: 66pt;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 45pt;
+  width: 630px;
+  line-height: normal;
+}
+
+.subh {
+  font-size: 30pt;
+  margin-bottom: 1em;
+}
+
+.img-box {
+  height: 660px;
+  img {
+    width: 350px;
+  }
+}

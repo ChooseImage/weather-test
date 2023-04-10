@@ -1,0 +1,213 @@
+@use '../../../styles/base';
+@use '../../../styles/typography';
+
+main {
+  width: 1920px;
+  height: 1080px;
+}
+
+#now.day {
+  background-image: url('../../assets/day/vup_banner_day.png');
+}
+
+#now.dusk {
+  background-image: url('../../assets/dusk/vup_banner_dusk.png');
+}
+
+#now.night {
+  background-image: url('../../assets/night/vup_banner_night.png');
+}
+#notch-r.day {
+  background-image: url('../../assets/wind_bg/vup_wind_day.png');
+}
+#notch-r.dusk {
+  background-image: url('../../assets/wind_bg/vup_wind_dusk.png');
+}
+#notch-r.night {
+  background-image: url('../../assets/wind_bg/vup_wind_night.png');
+}
+
+body {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  //background-image: url('../../assets/vup-guide-v2.png');
+  background-image: url('../../assets/vup.jpg');
+}
+
+#vup-header {
+  height: 319px;
+  padding: 3.3rem 4.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#station-title {
+  font-family: 'Gotham Bold', Arial, Helvetica, sans-serif;
+  font-size: 85px;
+  line-height: initial;
+  margin-bottom: 15px;
+}
+#station-title.long-text {
+  font-size: 80px;
+}
+
+#today {
+  font-family: 'Gotham Medium', Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+}
+
+h1 {
+  // margin: 0.9em 0 0 1em;
+  font-size: 55px;
+  font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+#now {
+  opacity: 1;
+  overflow: hidden;
+  height: 760px;
+}
+
+h3 {
+  font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  width: 600px;
+  margin: 0.6em 1em 0 0;
+}
+
+#forecast {
+  position: relative;
+  display: flex;
+  padding: 3.7em 4.5rem 3em;
+  height: 560px;
+  box-sizing: border-box;
+}
+
+.img-box {
+  height: 370px;
+  img {
+    width: 550px;
+  }
+}
+
+h2.temp {
+  font-family: 'Gotham Medium', Arial, Helvetica, sans-serif;
+  font-size: 5.5em;
+  margin: 0 0.2em 0 0;
+}
+
+.subh {
+  font-size: 1.3em;
+  font-family: 'Gotham Medium', Arial, Helvetica, sans-serif;
+  margin-top: 0.2em;
+  .temp {
+    font-size: 1.07em;
+    font-family: 'Gotham Black', Arial, Helvetica, sans-serif;
+  }
+}
+
+#notch-l {
+  width: 563px;
+  height: 265px;
+  left: 1300px;
+  bottom: -20px;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  padding: 80px 92px;
+  justify-content: space-between;
+  line-height: 1.8;
+  font-size: 30pt;
+
+  img:first-child {
+    position: absolute;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: -85px;
+  }
+
+  img:last-child {
+    position: absolute;
+    width: 110px;
+    margin-left: 3px;
+    margin-top: -60px;
+  }
+
+  h4 {
+    position: relative;
+    font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 33px;
+    left: -5px;
+  }
+
+  p {
+    font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 33px;
+    opacity: 0.6;
+    position: relative;
+    left: -100px;
+  }
+
+  h4#humidity-title {
+    position: relative;
+    top: -33px;
+  }
+
+  h4#sun-title {
+    position: relative;
+    top: 10px;
+  }
+
+  p#humidity {
+    position: relative;
+    top: -30px;
+  }
+
+  p#sun-time {
+    position: relative;
+    top: 10px;
+  }
+}
+
+#notch-r {
+  width: 563px;
+  height: 495px;
+  position: absolute;
+  left: 1360px;
+  top: 319px;
+  background-size: 565px;
+  //background-image: url('../../assets/wind_bg/vup_wind_bg_day.png');
+
+  h4 {
+    margin-left: 40px;
+    margin-top: -48px;
+    font-size: 40px;
+    line-height: 5em;
+    font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+    .subh {
+      position: fixed;
+      margin-top: -130px;
+      margin-left: 0px;
+    }
+
+    .wind {
+      position: fixed;
+      margin-top: -140px;
+      margin-left: -230px;
+      font-size: 50px;
+    }
+  }
+}
+
+#moments-tag {
+  position: fixed;
+  top: 880px;
+}
